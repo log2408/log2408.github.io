@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy</title>
+    <!-- Liên kết Font Awesome -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="buybuy.css">
+<link rel="stylesheet" href="myfooter.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="">
+              <h3 style="font-size: 25px; margin-bottom: 8px;"><b>PhoneStore</b></h3>
+            </a>
+        </div>
+        
+        <div class="menu">
+            <li><a href="https://yourname.wuaze.com/homehtml.html" style="font-size: 17px;">Trang chủ</a></li>
+            <li><a href="http://yourname.wuaze.com/sanpham.html" style="font-size: 17px;">Sản phẩm</a>
+                
+            </li>
+            <li><a href="http://yourname.wuaze.com/new.html" style="font-size: 17px;">Thông tin</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Search" type="text">
+                <button class="btn" type="button" id="btnSearch">
+                    <i class="fas fa-search"></i>
+                </button>
+            </li>
+            <li><a class="fa fa-user" href="http://phucvscode.wuaze.com/baitaplon.html"></a></li>
+            <li><a class="fa fa-shopping-bag" href="http://yourname.wuaze.com/buy1.html"></a></li>
+        </div>
+        <label for="nav_menu-input" class="nav_bar-btn">
+            <i class='bx bx-menu'></i>
+        </label>
+
+        <label for="nav_menu-input"></label>
+        <input type="checkbox"  class="nav_input" id="nav_menu-input">
+
+        <label for="nav_menu-input" class="nav_overlay">
+        </label>
+        <div class="nav_menu">
+            <label for="nav_menu-input" class="nav_menu-close">
+                <i class='bx bx-x' ></i>
+            </label>
+            <ul class="nav_menu-list">
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Sản phẩm</a>
+                </li>
+                <div class="sub-menu-block"></div>
+                <li><a href="">Thông tin</a></li>
+            </ul>
+        </div>
+    </header> 
+    
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery_wrap">
+                <div class="delivery_top">
+                    <div class="delivery_top_cart delivery_top_item ">
+                        <i class="fas fa-shopping-cart"></i>
+                        
+                    </div>
+                    <div class="delivery_top_map delivery_top_item">
+                        
+                        <i class="fas fa-map-marked-alt"></i>
+                        
+                    </div>
+                    <div class="delivery_top_money delivery_top_item">
+                        
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="delivery_content row">
+                <div class="delivery_content_left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery_content_left_dangnhap row">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Đăng nhập (Nếu bạn đã có tài khoản đăng nhập của IVY)</p>
+                    </div>
+                    <div class="delivery_content_left_khachle row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span>(Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery_content_left_dangky row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Đăng ký</span>(Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery_content_left_input_top row">
+                        <div class="delivery_content_left_intput_top_item">
+                            <label for="">Họ tên<span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery_content_left_intput_top_item">
+                            <label for="">Điện thoại<span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery_content_left_intput_top_item">
+                            <label for="">Tỉnh/Tp<span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery_content_left_intput_top_item">
+                            <label for="">Quận/Huyện<span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery_content_left_intput_bottom">
+                            <label for="">Địa chỉ<span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery_content_left_button row">
+                        <a href="http://127.0.0.1:5500/Ivy%20moda/cart.html"><span>&#171;</span>Quay lại giỏ hàng</a>
+                        <button id="linkButton_to_payment"><p style="font-weight: bold;"></p>THANH TOÁN GIAO HÀNG</button>
+                        
+                    </div>
+                </div>
+                <div class="delivery_content_right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Xiaomi 13 pro</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td>590.000 <sup>đ</sup></td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Galaxy</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td>690.000 <sup>đ</sup></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;" colspan="3"><p>690.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;" colspan="3"><p>69.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;" colspan="3"><p>759.000 <sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<!-----------------------------------app-container---------------------------->    
+<section class="app-container">
+    <p>Tải ứng dụng PhoneStore</p>
+    <div class="app-google">
+        <img src="chch.png">
+        <img src="apap.jpg">
+    </div>
+    <p>Nhận bản tin PhoneStore</p>
+    <input type="text" placeholder="nhap email cua ban...">
+    <a href="https://www.google.com/intl/vi/gmail/about/" class="myamy"><i class="fa-solid fa-arrow-right"></i></a>
+</section>
+<!----------------------------------------footer------------------------------>    
+<footer class="bg-my mt-4 p-3 myfooter1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="#">
+                    <p class="text-white">Tích điểm Quà tặng VIP</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Lịch sử mua hàng</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Tìm hiểu về mua trả góp</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Chính sách bảo hành</p>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="#">
+                    <p class="text-white">Tuyển dụng</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Góp ý, khiếu nại</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Giới thiệu công ty</p>
+                </a>
+                <a href="#">
+                    <p class="text-white">Xem bản mobile</p>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <p class="text-white">Số điện thoại liên hệ: </p>
+                <p class="text-white">0123456789</p>
+            </div>
+            <div class="col-sm-3">
+                <p class="text-white">Mạng xã hội</p>
+                <p class="text-white"><i class="fa-brands fa-facebook"></i>    <i class="fa-brands fa-instagram"></i>  <i class="fa-brands fa-twitter"></i>     <i class="fa-brands fa-tiktok"></i></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="buyjjs.js"></script>
+</html>

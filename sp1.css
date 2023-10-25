@@ -1,0 +1,55 @@
+
+.style1{
+    color:rgb(252, 252, 252) ;
+}
+.logo
+{
+    width: 150px;
+    padding-top: 20px;
+}
+.cauhinh{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+}
+footer{
+    background-color: #4a4d54 ;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.giaban{
+    color: red;
+    font-size: 35px;
+}
+.mysection {
+    position: relative;
+    top: 70px;
+}
+.mylogo{
+    padding-bottom: 15px;
+}
+body, html {
+    font-family: Arial;
+    font-size: 15px; 
+    color: #333; 
+}
+.myh3{
+    padding-bottom: 20px;
+    font-size: 25px !important;
+}
+.mybody{
+    background-color: white;
+}
+button.btn{
+    padding-top: 0px;
+}
+.canlegiua{
+    width: 800px;
+    text-align: justify;
+}

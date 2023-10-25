@@ -1,0 +1,443 @@
+a {
+    text-decoration: none;
+}
+h2{
+    padding-right: 20px;
+}
+.kttc{
+    padding-top: 4px;
+    padding-right:40px;
+}
+.mystyle{
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+}
+
+.anh{
+    width: 1200px;
+    height: 200px; 
+    object-fit: cover;
+}
+.s{
+    margin-left: 40px;
+}
+.custom-box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+div.mybg{
+    background-image: url("na.jpg");
+    height: 520px;
+    object-fit: cover;
+}
+.chinh{
+    padding-top: 400px;
+    padding-left: 500px;
+}
+.tach{
+    padding-right: 25px;
+    font-size: 20px;
+}
+.chu{
+    padding-left: 500px;
+    color: white;
+    padding-top: 250px;
+}
+.myanh{
+    height: 145px;
+}
+p{
+    color: red;
+}
+.mymargin{
+    margin-left: 110px;
+}
+.anh2{
+    height: 200px;
+    width: 100px;
+}
+div.card {  
+    width: 250px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.panel-body img{
+    max-height: 250px;
+}
+div.pane {  
+    width: 250px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.canle{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.myanhh{
+    height: 300px;
+    margin-left: 0px;
+    width: 233px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.mybutton{
+    width: 200px;
+    height: 40px;
+    background: #00ccff; 
+    border: 3px #00ccff outset;
+    padding: 0 2px;
+    text-decoration: none;
+    font: bold 10px Verdana;
+    font-size: 15px;
+}
+.mybutton:hover {
+    border-style: inset;
+    background: #33ffff;
+    padding: 2px 3px 0 5px;
+    color:#000099; 
+}
+.myhang{
+    color: #000000;
+}
+.bg-my{
+    background-color: #4a4d54  ;
+}
+.mybody{
+    background-color: #f3f3f3;
+}
+.mydiv{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.divmy{
+    padding-bottom: 10px;
+    width: 260px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.anhanh{ 
+    margin-top: 30px;
+    width: 160px;
+    margin-left: 55px;
+    margin-bottom: 70px;
+}
+.anhmy{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.anh11{
+    margin-left: 120px;
+}
+div.mypane:hover {
+    padding: 2px 3px 0 5px;
+    border-radius: 15px;
+    transform: translateY(-40px);
+    transition: 0.2s;
+}
+div.pane{
+    border-radius: 15px;
+}
+div.pane{
+    background-color: white;
+}
+.giatien{
+    color: red;
+}
+div.anhanh:hover{
+    padding: 2px 3px 0 5px;
+    border-radius: 15px;
+    transform: translateY(-20px);
+    transition: 0.2s;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 10px 12px;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background: #f3f3f3;
+}
+header.sticky {
+    background: rgba(255,255,255, 0.6);
+}
+.logo {
+    flex: 1;
+}
+
+.menu {
+    flex: 3;
+    display: flex;   
+}
+
+.menu > li {
+    padding: 0 12px;
+    position: relative;
+}
+
+.menu > li:hover .sub-menu {
+    visibility: visible;
+    top: 45px;
+
+}
+
+
+.sub-menu {
+    position: absolute;
+    width: 200px;
+    padding: 10px 0 20px 10px;
+    border: 1px solid #ddd;
+    visibility: hidden;
+    top: 60px;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.sub-menu ul {
+    padding-left: 30px;
+}
+.sub-menu ul a {
+    font-weight: normal;
+    font-size: 12px;
+}
+.menu li a{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+}
+
+.others {
+    flex: 1;
+    display: flex;
+}
+
+.others > li {
+    padding: 0 12px;
+    position: relative;
+}
+
+.others > li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    background: #ddd;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.others > li:first-child {
+    position: relative;
+}
+
+.others > li:first-child input {
+    width: 100%;
+    border:  none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+    outline: none;
+}
+
+.others > li:first-child button {
+    position: absolute;
+    right: 10px;
+    border: none;
+}
+
+/* Mobile nav */
+
+.nav_bar-btn {
+    width: 28px;
+    height: 28px;
+    color: #333;
+    display: none;
+    /* Thêm các thuộc tính chính giữa các dấu ngoặc nhọn */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_bar-btn i {
+    /* Thêm các thuộc tính chính giữa các dấu ngoặc nhọn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all linear 0.2s;
+}
+
+.nav_menu-list {
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.nav_menu-list li {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    
+}
+
+
+
+
+.nav_menu-list > li:nth-child(2):hover .nav_sub-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 90px;
+}
+
+/* Hiển thị .sub-menu-block và lùi các mục tiếp theo khi .nav_menu-list > li:nth-child(2) đang được hover */
+.nav_menu-list > li:nth-child(2):hover ~ .sub-menu-block,
+.nav_menu-list > li:nth-child(2):hover ~ .sub-menu-block {
+    margin-top: 200px; /* Khoảng cách margin top bạn muốn */
+    transition: ease 0.3s;
+}
+
+
+.nav_sub-menu {
+    position: absolute;
+    width: 200px;
+    border: none;
+    padding: 10px 0 10px 20px;
+    top: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 1;
+    
+}
+
+.nav_menu-close {
+    font-size: 1.4rem;
+    color: #333;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 28px;
+    height: 28px;
+}
+
+.nav_input{
+    display: none;
+}
+
+.nav_input:checked ~ .nav_overlay {
+    display: block;
+}
+
+.nav_input:checked ~ .nav_menu {
+    transform: translateX(0);
+    opacity: 1;
+}
+@media (max-width: 1000px) {
+    .nav_bar-btn {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        flex: 2;
+    }
+    .others {
+        flex: 1;
+    }
+}
+@media (max-width: 600px){
+    .nav_bar-btn {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+    .logo{
+        flex: 1;
+    }
+    .others{
+        flex: 2;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.mysection {
+    position: relative;
+    top: 70px;
+}
+body, html {
+    font-family: Arial;
+    font-size: 15px; 
+    color: #333; 
+}
+.myh3{
+    font-size: 25px !important;
+}
+.myfooter{
+    margin-top: 100px !important;
+}
+button.btn{
+    padding-top: 0px;
+}

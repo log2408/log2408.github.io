@@ -1,0 +1,80 @@
+.deal{
+    display: block;
+}
+.news{
+    display: flex;
+    margin: 15px 0 ;
+    height: 160px;
+}
+.deal img{
+    width:100%;
+    height: auto;
+}
+.news img{
+    max-width: 250px;
+   
+}
+.hr{
+    height: 5px;
+    background-color: red;
+    width: 20%;
+}
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #53585c;
+    font-weight: bold;
+}
+.deal{
+    margin-top: 20px;
+    float:left;
+}
+
+
+
+a{
+    text-decoration: none ;
+    color: black;
+}
+.tittle{ 
+    font-size: 25px;
+    color: rgb(238, 48, 48);
+    font-weight: bolder;
+}
+
+body, html {
+    font-family: Arial;
+    font-size: 15px; 
+    color: #333; 
+}
+.myh3{
+    padding-bottom: 20px;
+    font-size: 25px !important;
+}
+.mybody{
+    background-color: white;
+}
+button.btn{
+    padding-top: 0px;
+}
+.mysection {
+    position: relative;
+    top: 70px;
+}
+.paragraph:hover{
+    color: red;
+}
+.myfooter{
+    margin-top: 100px !important;
+}
+.mybody2{
+    background-image: url("bannre.webp");
+    height: 520px;
+    object-fit: cover;
+}
+.myimg{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

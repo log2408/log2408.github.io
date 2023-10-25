@@ -1,0 +1,36 @@
+
+.style1{
+    color:rgb(252, 252, 252) ;
+}
+.logo
+{
+    width: 150px;
+    padding-top: 20px;
+}
+.cauhinh{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+}
+footer{
+    background-color: #000000;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.giaban{
+    color: red;
+    font-size: 35px;
+}
+.mysection {
+    position: relative;
+    top: 70px;
+}
+.mylogo{
+    padding-bottom: 10px;
+}
