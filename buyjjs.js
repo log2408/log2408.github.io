@@ -33,13 +33,8 @@ const subMenu = document.querySelector('.sub-menu');
 // on click button translate to payment + delivery // 
 
 document.getElementById("linkButton_to_delivery").addEventListener("click", function(){
-    var targetURLDelivery = "http://127.0.0.1:5500/home/buy3.html"
+    var targetURLDelivery = "https://log2408.github.io/muasam2.html"
     window.location.href = targetURLDelivery;
 })
 
-
-document.getElementById("linkButton_to_payment").addEventListener("click", function(){
-            var targetURLPayment = "http://127.0.0.1:5500/home/buy2.html"
-            window.location.href = targetURLPayment;
-})
 
